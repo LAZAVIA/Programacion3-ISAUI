@@ -1,0 +1,48 @@
+body {
+    background-color:aquamarine;
+}
+h2 {
+    color: brown; font-weight: bolder; font-family: Arial, Helvetica, sans-serif;
+}
+li {
+    color: blue
+}
+.parrafo {
+    color: blue;
+}
+.parrafo span {
+    font-size: 20px; font-weight: bold; color: blue;
+}
+#resaltado {
+    font-size: 15px; background-color: black; color: white;
+}
+#titulo {
+    color: darkgreen;
+}
+#titulo:after {
+    color:blue; content:"HTML & CSS: Curso práctico avanzado"
+}
+#autor {
+    color: darkgreen;
+}
+#autor:after {
+    color:blue; content:"Sergio Luján Mora"
+}
+#editorial {
+    color: darkgreen;
+}
+#editorial:after {
+    color:blue; content:"Publicaciones Altaria"
+}
+#año {
+    color: darkgreen;
+}
+#año:after {
+    color:blue; content:"2015"
+}
+#isbn {
+    color: darkgreen;
+}
+#isbn:after {
+    color:blue; content:"978-84-944049-4-8"
+}
